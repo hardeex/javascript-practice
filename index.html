@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript practice</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+
+<body>
+
+
+    <h1>My first Javascript Class</h1>
+    <p id="ptxt"> navigating through the DOM </p>
+
+    <h2>Using Javascript to turn ON and OFF bulb</h2>
+    <!--
+        THE KEY TO NOTE:
+        - The key note of this source code is changing of a source file using javascript
+        - The ID must be the same
+        - Each of the img src must reference to the actual image
+    -->
+
+    <button onclick="document.getElementById('bulb').src='/images/light-bulb-off.gif' ">Turn OFF</button>
+    <img src="/images/light-bulb-off.gif" alt="bulb-on" id="bulb">
+    <button onclick="document.getElementById('bulb').src='/images/light-on-blinking.gif' ">Turn ON</button>
+
+    
+    
+    <!-- <button onclick="document.getElementById('myImage').src='/images/light-bulb-off-gif.png'">Turn on the light</button> -->
+    
+
+    
+    
+</body>
+</html>
